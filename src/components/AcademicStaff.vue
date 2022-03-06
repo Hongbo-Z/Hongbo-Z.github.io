@@ -135,15 +135,15 @@ export default {
           position: relative;
           margin-bottom: 60px;
         }
-        .title:before{
-          content: "";
-          width: 40px;
-          border-bottom: 4px solid #0c0c0c;
-          position: absolute;
-          left: 50%;
-          margin-left: -20px;
-          bottom: -30px;
-        }
+        // .title:before{
+        //   content: "";
+        //   width: 40px;
+        //   border-bottom: 4px solid #0c0c0c;
+        //   position: absolute;
+        //   left: 50%;
+        //   margin-left: -20px;
+        //   bottom: -30px;
+        // }
         .staff-container{
           width: 960px;
           border-bottom: 2px solid grey;
