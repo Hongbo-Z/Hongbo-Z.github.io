@@ -64,7 +64,7 @@
 
     <el-row class="staff-container">
       <el-col :span="6" class="profile-photo">
-      <a href="https://www.research.manchester.ac.uk/portal/clare.dixon.html"><img src="./images/members/CentreManagementTeam/Clare Dixon.jpeg" alt="PROFILE" class="photo"></a>
+      <a href="https://www.research.manchester.ac.uk/portal/clare.dixon.html"><img src="images/members/CentreManagementTeam/Clare_Dixon.jpeg" alt="PROFILE" class="photo"></a>
       </el-col>
       <el-col :span="18" class="profile-intro">
         <p class="name">Prof Clare Dixon</p>
