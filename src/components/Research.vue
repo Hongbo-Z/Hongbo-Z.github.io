@@ -1,7 +1,5 @@
 <template>
-<div>
-  <common-header></common-header>
-  <div class="common-box projects">
+  <div class="common-box projects" id="Research">
     <p class="title">Themes</p>
     <p class="intro">The work of the academics and research labs is aligned around five themes, each focussing on a specific set of key scientific and technological challenges and areas of investigation</p>
     <el-row class="content">
@@ -211,8 +209,6 @@
       </el-col>
     </el-row>
   </div>
-  <common-footer></common-footer>
-</div>
 
 </template>
 

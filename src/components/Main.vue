@@ -40,6 +40,9 @@
             </el-carousel-item>
           </el-carousel>
         </div>
+        <common-cmt></common-cmt>
+        <common-research></common-research>
+        <common-collaboration></common-collaboration>
 
         <div class="common-box partner">
           <div class="title">Application Domains and Industry collaboration
@@ -392,82 +395,28 @@ html, body {
           bottom: -30px;
         }
 
-        .staff-container {
-          width: 960px;
+        .staff-container{
+          width: 1200px;
           border-bottom: 2px solid grey;
           padding: 15px 0;
-
-          .profile-photo {
-            .photo {
-              width: 100%;
-              border-radius: 50%;
-              box-shadow: rgba(0, 0, 0, 0.25) 0 3px 11px 0 !important;
-            }
-          }
-
-          .profile-intro {
-            padding-left: 35px;
-
-            .name {
-              color: rgb(26, 26, 26);
-              font-size: 30px;
-              font-family: Oswald;
-              font-weight: 400;
-
-              &.sub-intro {
-                font-size: 24px;
-              }
-            }
-
-            .el-tabs {
-              margin-top: 30px;
-
-              .el-tabs__nav {
-                .el-tabs__active-bar {
-                  background-color: #000;
-                }
-
-                .el-tabs__item {
-                  height: 100px;
-                  line-height: 100px;
-                  color: #878787;
-
-                  &.is-active {
-                    color: #000;
-                  }
-                }
-
-                .el-tabs__item:hover {
-                  color: #000;
+          .staff-col{
+            padding: 20px;
+            .el-card{
+              .img-box{
+                width: 100%;
+                height: 260px;
+                overflow: hidden;
+                .image{
+                  width: 100%;
+                  margin-top: -20px;
                 }
               }
-
-              .el-tabs__content {
-                display: flex;
-                flex-direction: column;
-                justify-content: center;
-
-                .el-tab-pane {
-                  height: 350px;
-                  display: flex;
-                  flex-direction: column;
-                  justify-content: center;
-
-                  .prof-title, .content {
-                    .link {
-                      border-bottom: 1px solid #000;
-                      color: #000;
-                      text-decoration: none;
-                    }
-                  }
-
-                  .prof-title:nth-child(even) {
-                    margin: 20px 0;
-                  }
-
-                  .content {
-                    margin-bottom: 30px;
-                  }
+              .staff-intro{
+                .staff-intro-title{
+                  font-weight: 700;
+                }
+                .staff-intro-content{
+                  color: #999;
                 }
               }
             }
