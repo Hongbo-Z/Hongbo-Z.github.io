@@ -37,13 +37,13 @@
       <el-col :span="6" class="staff-col">
         <el-card :body-style="{ padding: '0px' }" shadow="hover">
           <div class="img-box">
-            <a href="https://www.research.manchester.ac.uk/portal/clare.dixon.html"><img src="./images/members/CentreManagementTeam/Clare_Dixon.jpeg" class="image">
+            <a href="https://www.research.manchester.ac.uk/portal/andrew.weightman.html"><img src="./images/members/CentreManagementTeam/Andrew_Weightman.png" class="image">
             </a>
           </div>
           <div style="padding: 14px;" class="staff-intro">
-            <span class="staff-intro-title">Prof Clare Dixon</span>
+            <span class="staff-intro-title">Dr Andrew Weightman</span>
             <div class="bottom clearfix">
-              <span class="staff-intro-content">Funding Lead</span>
+              <span class="staff-intro-content">Industry Liaison</span>
             </div>
           </div>
         </el-card>
@@ -67,6 +67,21 @@
       <el-col :span="6" class="staff-col">
         <el-card :body-style="{ padding: '0px' }" shadow="hover">
           <div class="img-box">
+            <a href="https://www.research.manchester.ac.uk/portal/clare.dixon.html"><img src="./images/members/CentreManagementTeam/Clare_Dixon.jpeg" class="image">
+            </a>
+          </div>
+          <div style="padding: 14px;" class="staff-intro">
+            <span class="staff-intro-title">Prof Clare Dixon</span>
+            <div class="bottom clearfix">
+              <span class="staff-intro-content">Funding Lead</span>
+            </div>
+          </div>
+        </el-card>
+      </el-col>
+
+      <el-col :span="6" class="staff-col">
+        <el-card :body-style="{ padding: '0px' }" shadow="hover">
+          <div class="img-box">
             <a href="https://www.research.manchester.ac.uk/portal/michael.fisher.html"><img src="./images/members/CentreManagementTeam/Michael_Fisher.png" class="image">
             </a>
           </div>
@@ -82,17 +97,19 @@
       <el-col :span="6" class="staff-col">
         <el-card :body-style="{ padding: '0px' }" shadow="hover">
           <div class="img-box">
-            <a href="https://www.research.manchester.ac.uk/portal/andrew.weightman.html"><img src="./images/members/CentreManagementTeam/Andrew_Weightman.png" class="image">
+            <a href="https://www.research.manchester.ac.uk/portal/louise.dennis.html"><img src="./images/members/CentreManagementTeam/Louise_Dennis.png" class="image">
             </a>
           </div>
           <div style="padding: 14px;" class="staff-intro">
-            <span class="staff-intro-title">Dr Andrew Weightman</span>
+            <span class="staff-intro-title">Dr Louise Dennis</span>
             <div class="bottom clearfix">
-              <span class="staff-intro-content">Industry Liaison</span>
+              <span class="staff-intro-content">Outreach and dissemination Lead</span>
             </div>
           </div>
         </el-card>
       </el-col>
+
+
 
     </el-row>
 

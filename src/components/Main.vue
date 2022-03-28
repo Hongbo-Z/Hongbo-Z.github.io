@@ -221,12 +221,16 @@ html, body {
         .title {
           font-size: 60px;
           color: #fff;
+          // background-color: rgba(255, 255, 255, 0.7);
+          // padding: 10px;
           text-align: center;
           font-family: "Atmosphere";
         }
 
         .sub-title {
           color: #fff;
+          // background-color: rgba(255, 255, 255, 0.7);
+          // padding: 10px;
           font-size: 50px;
           margin-top: 30px;
           text-align: center;

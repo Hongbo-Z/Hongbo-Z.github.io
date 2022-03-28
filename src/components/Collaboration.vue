@@ -1,6 +1,6 @@
 <template>
   <div class="common-box projects" id="Collaboration">
-    <p class="title">Application Domains and Industry collaboration</p>
+    <p class="title">Application Domains</p>
     <p class="intro">One of the key strengths of robotics research at the Centre is the breadth and variety of autonomous systems applications, and the direct engagement and collaboration with numerous industry partners and stakeholders. The impact activities are organised around 5 application domains.</p>
 
     <el-row class="content">
