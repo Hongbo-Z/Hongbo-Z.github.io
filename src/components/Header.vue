@@ -190,7 +190,7 @@ export default {
 </script>
 
 <style lang="less">
-@themeColor: #660099;
+@themeColor: rgba(20,20,20,0.9);
 a{text-decoration:none!important;}
 
 .el-dropdown-menu{
@@ -232,6 +232,9 @@ a{text-decoration:none!important;}
           }
         }
       }
+      .el-menu-item:hover{
+        a{color: #6b3090;}
+      }
     }
   }
   .el-submenu{
@@ -250,7 +253,7 @@ a{text-decoration:none!important;}
 .el-header{
   width: 100%;
   top: 0;
-  background: rgba(102,0,153,0.7);
+  background: @themeColor;
   border: 1px solid transparent;
   position: relative;
   padding: 0;
@@ -285,6 +288,11 @@ a{text-decoration:none!important;}
       .nav-menu{
         background: transparent!important;
         border-bottom: none;
+        .el-menu-item:hover{
+          a{
+            color: #6b3090!important;
+          }
+        }
       }
     }
   }

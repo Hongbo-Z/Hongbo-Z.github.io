@@ -282,7 +282,7 @@ export default {
                 .title{
                   word-wrap: break-word;
                   word-break: break-all;
-                  font-size: 22px;
+                  font-size: 18px;
                   margin-top: 10px;
                 }
                 .sub-title{

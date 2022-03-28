@@ -39,12 +39,12 @@ export default {
 </script>
 
 <style lang="less" scoped>
-@themeColor: #660099;
+@themeColor:#fff;
 .el-footer{
   height: 300px;
   width: 100%;
   background: @themeColor;
-  color: #fff;
+  color: #6b3090;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -76,7 +76,7 @@ export default {
       flex-direction: column;
       align-items: center;
       padding-top: 20px;
-      color: #fff;
+      color: #6b3090;
       height: 200px;
       font-family: Source Han Sans, Geneva, sans-serif;
       .content{
@@ -95,7 +95,7 @@ export default {
             cursor: pointer;
             .link{
               text-decoration: none;
-              color: #fff;
+              color: #6b3090;
             }
           }
         }
@@ -106,7 +106,7 @@ export default {
       flex-direction: column;
       align-items: center;
       padding-top: 20px;
-      color: #fff;
+      color: #6b3090;
       height: 200px;
       font-family: Source Han Sans, Geneva, sans-serif;
       .content{

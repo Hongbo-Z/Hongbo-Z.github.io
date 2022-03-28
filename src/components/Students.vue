@@ -99,7 +99,7 @@
 
     <el-row class="staff-container">
       <el-col :span="6" class="profile-photo">
-      <a href="https://www.linkedin.com/in/federico-tavella/?originalSubdomain=uk"><img src="./images/members/PhD/FrancescoSemeraro.png" alt="PROFILE" class="photo"></a>
+      <a href="https://www.linkedin.com/in/francesco-semeraro-0b0b3612a/?originalSubdomain=uk"><img src="./images/members/PhD/FrancescoSemeraro.png" alt="PROFILE" class="photo"></a>
       </el-col>
       <el-col :span="18" class="profile-intro">
         <p class="name">Francesco Semeraro</p>

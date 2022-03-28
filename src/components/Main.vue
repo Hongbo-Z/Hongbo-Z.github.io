@@ -11,7 +11,7 @@
       <el-main>
         <div class="common-box project-carousel" id="about">
 
-          <p class="title"><span class="high-light">About</span></p>
+          <p class="title"><span>About</span></p>
           <p class="intro">The robotics and autonomous systems research at the University of Manchester has a
             distinctive profile developing, integrating and applying novel AI approaches in the design of robots and
             autonomous systems for real world applications. This is a highly interdisciplinary Centre, building on the
@@ -273,9 +273,9 @@ html, body {
         }
       }
 
-      .common-box:nth-child(odd) {
-        background-color: rgba(102, 0, 153, 0.3);
-      }
+      // .common-box:nth-child(odd) {
+      //   background-color: rgba(102, 0, 153, 0.3);
+      // }
 
       .project-carousel {
         .carousel-container {

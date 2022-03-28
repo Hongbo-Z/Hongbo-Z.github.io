@@ -6,7 +6,7 @@
 
     <el-row class="staff-container">
       <el-col :span="6" class="profile-photo">
-      <a href="https://www.research.manchester.ac.uk/portal/angelo.cangelosi.html"><img src="./images/members/CentreManagementTeam/Angelo-Cangelosi.jpg" alt="PROFILE" class="photo"></a>
+      <a href="https://www.research.manchester.ac.uk/portal/angelo.cangelosi.html"><img src="./images/members/CentreManagementTeam/Angelo_Cangelosi.jpg" alt="PROFILE" class="photo"></a>
       </el-col>
       <el-col :span="18" class="profile-intro">
         <p class="name">Prof Angelo Cangelosi</p>
@@ -37,7 +37,7 @@
 
     <el-row class="staff-container">
       <el-col :span="6" class="profile-photo">
-      <a href="https://www.research.manchester.ac.uk/portal/barry.lennox.html"><img src="./images/members/CentreManagementTeam/Barry-Lennox.jpeg" alt="PROFILE" class="photo"></a>
+      <a href="https://www.research.manchester.ac.uk/portal/barry.lennox.html"><img src="./images/members/CentreManagementTeam/Barry_Lennox.jpeg" alt="PROFILE" class="photo"></a>
       </el-col>
       <el-col :span="18" class="profile-intro">
         <p class="name">Prof Barry Lennox</p>
