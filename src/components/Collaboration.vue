@@ -68,7 +68,7 @@ export default {
 @themeColor: #660099;
 .common-box{
   width: 100%;
-  padding: 60px;
+  // padding: 60px;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -103,7 +103,7 @@ export default {
           max-width: 1200px;
           width: 100%;
           margin-top: 30px;
-          padding: 30px 0;
+          padding: 30px 0 0 0;
           //display: flex;
           //flex-direction: column;
           //justify-content: space-between;

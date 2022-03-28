@@ -44,12 +44,9 @@
         <common-research></common-research>
         <common-collaboration></common-collaboration>
 
-        <div class="common-box partner">
-          <div class="title">Application Domains and Industry collaboration
+        <div class="common-box partner" style="padding-bottom:60px">
+          <div class="title">Our Collaborators from Academia and Industry
           </div>
-          <p class="intro">One of the key strengths of robotics research at the Centre is the breadth and variety of
-            autonomous systems applications, and the direct engagement and collaboration with numerous industry partners
-            and stakeholders. The impact activities are organised around 5 application domains.</p>
           <div class="partner-list">
             <div class="clients-logo slick-slider">
               <div class="item">
@@ -92,7 +89,6 @@
             </div>
           </div>
         </div>
-
         <div class="common-box news" id="News">
           <div class="title">News & Events</div>
           <el-carousel :autoplay="false" arrow="always" class="news-carousel-container" height="550px">
@@ -123,6 +119,8 @@
 
           </el-carousel>
         </div>
+
+
         <div class="common-box contact-us" id="contact-us">
           <div class="title">CONTACT US</div>
           <div class="intro">We are on the Internet!</div>
@@ -243,7 +241,8 @@ html, body {
 
       .common-box {
         width: 100%;
-        padding: 60px;
+        // padding: 60px;
+        margin-top: 30px;
         display: flex;
         flex-direction: column;
         align-items: center;
@@ -433,7 +432,7 @@ html, body {
           max-width: 1200px;
           width: 100%;
           margin-top: 30px;
-          padding: 30px 0;
+          padding: 30px 0 0 0;
           //display: flex;
           //flex-direction: column;
           //justify-content: space-between;
