@@ -113,7 +113,8 @@
 
     </el-row>
 
-    <div class="title">POSTDOCTORAL RESEARCHERS</div>
+    <div class="title">Academic Staff</div>
+    <div class="title">Postdocs and PhD Students</div>
     <el-row class="staff-container">
 
       <el-col :span="6" class="staff-col">
@@ -160,10 +161,6 @@
           </div>
         </el-card>
       </el-col>
-    </el-row>
-
-    <div class="title">PhD Students</div>
-    <el-row class="staff-container">
 
       <el-col :span="6" class="staff-col">
         <el-card :body-style="{ padding: '0px' }" shadow="hover">
@@ -239,7 +236,17 @@
           </div>
         </el-card>
       </el-col>
+
+
     </el-row>
+
+
+
+
+
+
+
+
     </el-row>
   </div>
 </template>
