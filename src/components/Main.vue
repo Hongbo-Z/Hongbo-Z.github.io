@@ -431,7 +431,7 @@ html, body {
         }
       }
 
-      .projects {
+      .projects_bak {
         .content {
           max-width: 1200px;
           width: 100%;
