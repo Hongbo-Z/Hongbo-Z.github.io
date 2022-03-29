@@ -143,7 +143,8 @@
 
           <li>
             <div class="timeline-image">
-              <img class="img-circle img-responsive" src="./images/research/Robots/Buddy.png" alt="">
+              <a href="https://buddytherobot.com/en/buddy-the-emotional-robot/"><img class="img-circle img-responsive" src="./images/research/Robots/Buddy.png" alt="">
+              </a>
             </div>
             <div class="timeline-panel">
               <div class="timeline-heading">
@@ -163,7 +164,8 @@
 
           <li class="timeline-inverted">
             <div class="timeline-image">
-              <img class="img-circle img-responsive" src="./images/research/Robots/Furhat.jpeg" alt="">
+              <a href="https://furhatrobotics.com"><img class="img-circle img-responsive" src="./images/research/Robots/Furhat.jpeg" alt="">
+              </a>
             </div>
             <div class="timeline-panel">
               <div class="timeline-heading">
@@ -183,7 +185,8 @@
 
           <li>
             <div class="timeline-image">
-              <img class="img-circle img-responsive" src="./images/research/Robots/iCub.jpeg" alt="">
+              <a href="https://icub.iit.it"><img class="img-circle img-responsive" src="./images/research/Robots/iCub.jpeg" alt="">
+              </a>
             </div>
             <div class="timeline-panel">
               <div class="timeline-heading">
@@ -203,7 +206,8 @@
 
           <li class="timeline-inverted">
             <div class="timeline-image">
-              <img class="img-circle img-responsive" src="./images/research/Robots/NAO.jpeg" alt="">
+              <a href="https://www.softbankrobotics.com/emea/en/nao"><img class="img-circle img-responsive" src="./images/research/Robots/NAO.jpeg" alt="">
+              </a>
             </div>
             <div class="timeline-panel">
               <div class="timeline-heading">
@@ -223,7 +227,8 @@
 
           <li>
             <div class="timeline-image">
-              <img class="img-circle img-responsive" src="./images/research/Robots/Pepper.jpeg" alt="">
+              <a href="https://www.softbankrobotics.com/emea/en/pepper"><img class="img-circle img-responsive" src="./images/research/Robots/Pepper.jpeg" alt="">
+              </a>
             </div>
             <div class="timeline-panel">
               <div class="timeline-heading">
@@ -243,7 +248,8 @@
 
           <li class="timeline-inverted">
             <div class="timeline-image">
-              <img class="img-circle img-responsive" src="./images/research/Robots/Sawyer.jpeg" alt="">
+              <a href="https://www.rethinkrobotics.com/sawyer"><img class="img-circle img-responsive" src="./images/research/Robots/Sawyer.jpeg" alt="">
+              </a>  
             </div>
             <div class="timeline-panel">
               <div class="timeline-heading">
@@ -642,6 +648,7 @@ export default {
       .timeline .timeline-body > p,
       .timeline .timeline-body > ul {
         margin-bottom: 0;
+        list-style: none;
       }
     }
   }
