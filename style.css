@@ -1,45 +1,138 @@
 body {
-  font-family: Georgia, "Times New Roman", serif;
-  line-height: 1.65;
-  color: #222;
-  background: #fff;
   margin: 0;
-}
-
-main {
-  max-width: 760px;
-  margin: 60px auto;
-  padding: 0 24px;
-}
-
-nav {
-  margin-bottom: 48px;
-}
-
-nav a {
-  margin-right: 20px;
-  color: #333;
-  text-decoration: none;
-}
-
-nav a:hover {
-  text-decoration: underline;
-}
-
-h1 {
-  font-size: 2.2rem;
-  margin-bottom: 24px;
-}
-
-h2 {
-  margin-top: 42px;
-  font-size: 1.35rem;
+  background: #fff;
+  color: #111;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-size: 17px;
+  line-height: 1.55;
 }
 
 a {
-  color: #0645ad;
+  color: #1a3a7a;
+  text-decoration: underline;
+  text-underline-offset: 2px;
+}
+
+.site-header {
+  max-width: 1280px;
+  margin: 70px auto 0 auto;
+  padding: 0 80px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.site-name {
+  font-size: 28px;
+}
+
+.site-nav a {
+  color: #111;
+  text-decoration: none;
+  margin-left: 32px;
+  font-size: 17px;
+}
+
+.site-nav a:hover {
+  text-decoration: underline;
+}
+
+.page {
+  max-width: 980px;
+  margin: 135px auto 80px auto;
+  padding: 0 40px;
+}
+
+.intro {
+  display: grid;
+  grid-template-columns: 280px 1fr;
+  column-gap: 70px;
+  align-items: center;
+  margin-bottom: 90px;
+}
+
+.profile-photo img {
+  width: 280px;
+  height: 260px;
+  object-fit: cover;
+  display: block;
+}
+
+.bio {
+  max-width: 620px;
+}
+
+.bio p {
+  margin: 0 0 16px 0;
 }
 
 .links {
-  margin-top: 28px;
+  margin-top: 24px;
+}
+
+.section {
+  max-width: 720px;
+  margin-left: 350px;
+  margin-bottom: 70px;
+}
+
+h2 {
+  font-size: 27px;
+  font-weight: normal;
+  margin: 0 0 14px 0;
+}
+
+.entry {
+  display: grid;
+  grid-template-columns: 70px 1fr;
+  column-gap: 10px;
+  margin: 3px 0;
+}
+
+.date {
+  font-size: 14px;
+  color: #333;
+}
+
+/* Mobile layout */
+@media (max-width: 800px) {
+  .site-header {
+    margin-top: 36px;
+    padding: 0 28px;
+    display: block;
+  }
+
+  .site-name {
+    margin-bottom: 20px;
+  }
+
+  .site-nav a {
+    margin-left: 0;
+    margin-right: 18px;
+  }
+
+  .page {
+    margin-top: 70px;
+    padding: 0 28px;
+  }
+
+  .intro {
+    display: block;
+    margin-bottom: 60px;
+  }
+
+  .profile-photo img {
+    width: 100%;
+    max-width: 300px;
+    height: auto;
+    margin-bottom: 32px;
+  }
+
+  .section {
+    margin-left: 0;
+  }
+
+  .entry {
+    grid-template-columns: 60px 1fr;
+  }
 }
